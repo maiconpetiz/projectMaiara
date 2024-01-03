@@ -1,27 +1,27 @@
-a {
+a { 
+    color: #7b513c;
     text-decoration: none;
     font-family: sans-serif;
-
+    font-weight: 600;
 }
 
 a:hover {
-    background: purple;
-    color: white;
+    color: #c65855;
 }
 
 #logo {
-    font-size: 38px;
-
+    width: 50px;
 }
 
 #header {
+    width: 100%;
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(234, 138, 234);  
+    background: #e1c9bf;  
 }
 
 #menu {
@@ -40,6 +40,10 @@ a:hover {
     display: none;
 }
 
+body {
+    background-color: #ede9e9;
+}
+
 @media (max-width: 600px) {
     #menu {
         display: block;
@@ -47,7 +51,7 @@ a:hover {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: rgb(203, 223, 124);
+        background: #e1c9bf;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -66,7 +70,7 @@ a:hover {
     #menu a {
         padding: 1rem 1rem;
         margin: 0 ;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        border-bottom: 2px solid rgba(123, 81, 60, .05);
     }
 
     #btn-mobile {
@@ -77,12 +81,12 @@ a:hover {
         background: none;
         cursor: pointer;
         gap: .5rem;
-        background: green;
     }
 
     #hamburger {
         display: inline-block;
         border-top: 3px solid;
+        color: #7b513c;
         width: 30px;
     }
 
