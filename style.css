@@ -44,6 +44,8 @@ body {
     background-color: #ede9e9;
 }
 
+
+
 @media (max-width: 600px) {
     #menu {
         display: block;
@@ -114,4 +116,24 @@ body {
         transform: rotate(-135deg);
         top: -8px;
     }
+
+    .sobre {
+        position: relative;
+        height: calc(100vh - 70px);
+    }
+
+    .sobre img {
+        position: absolute;
+        opacity: 0.4;
+        height: 100%;
+    }
+
+    .jornada {
+        position: absolute;
+        background-color: #7b513c;
+        color:#ede9e9;
+        display: flex;
+        text-align: center;
+    }
+    
 }
